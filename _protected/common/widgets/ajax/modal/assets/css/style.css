@@ -1,0 +1,39 @@
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+.spinner-wrap {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ajax-modal-wrap .modal-dialog {
+    width: 65%;
+    min-width: 300px;
+}
+
+/*
+@media (min-width: 768px) {
+
+}*/

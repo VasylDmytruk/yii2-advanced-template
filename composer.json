@@ -1,0 +1,48 @@
+{
+    "name": "webxloo/yii2-advanced-template",
+    "description": "Fork of Improved Yii 2 Advanced Application Template By Nenad Zivkovic",
+    "keywords": ["yii2", "framework", "advanced", "improved", "application template", "nenad"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "tutorial": "http://www.freetuts.org/tutorial/view?id=6",
+        "source": "https://github.com/nenad-zivkovic/yii2-advanced-template"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "kartik-v/yii2-password": "@dev",
+        "dmstr/yii2-adminlte-asset": "^2.1",
+        "himiklab/yii2-recaptcha-widget": "^1.2",
+        "kartik-v/yii2-widget-select2": "^2.1",
+        "kartik-v/yii2-datecontrol": "^1.9",
+        "kartik-v/yii2-widget-datetimepicker": "^1.4",
+        "kartik-v/yii2-date-range": "^1.6",
+        "kartik-v/yii2-widget-datepicker": "^1.4",
+        "nterms/yii2-pagesize-widget": "^2.0",
+        "yiisoft/yii2-apidoc": "~2.1.0",
+        "autoxloo/rest-api-doc": "^0.0.5"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "codeception/codeception": "^2.5.3",
+        "codeception/specify": "^1.1",
+        "codeception/verify": "^1.0.0",
+        "symfony/var-dumper": "^4.2.3"
+    },
+    "config": {
+        "vendor-dir": "_protected/vendor",
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "_protected/vendor/npm",
+            "bower-asset-library": "_protected/vendor/bower"
+        }
+    }
+}

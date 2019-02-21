@@ -1,0 +1,43 @@
+# yii console command
+/yii
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# composer vendor dir
+/_protected/vendor
+
+# runtime dir
+/_protected/frontend/runtime/
+/_protected/backend/runtime/
+/_protected/api/runtime/
+/composer.lock
+/_protected/yii
+/index-test.php
+/index.php
+/_protected/common/Yii.php
+/_protected/test-runner.sh
+/_protected/Yii.php
+/_protected/doc-generator.sh
