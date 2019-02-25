@@ -107,6 +107,14 @@ You can add this command to your crontab, example of every day cron schedule exp
 0 1 * * * php /var/www/html/advanced/_protected/yii cron/archive-all-logs
 ```
 
+To clear logs archive run:
+
+```
+php yii logs-archive/clear
+```
+
+> Note: This command deletes all records in table `log_archive`.
+
 Docs generating
 ---------------
 
