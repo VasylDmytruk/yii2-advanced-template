@@ -5,6 +5,12 @@ return [
     //'language' => 'sr',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'bootstrap' => ['common\components\Aliases'],
+
+    'aliases' => [
+        '@bower' => '@vendor/bower-asset',
+        '@npm'   => '@vendor/npm-asset',
+    ],
+
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
